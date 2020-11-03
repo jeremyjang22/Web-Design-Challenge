@@ -1,7 +1,44 @@
 h1{
     font-size: 50px;
 }
-.topnav{
+
+/* body */
+body{
+    padding:15px;
+    /* outline: auto; */
+}
+
+/* Navigation bar */
+.navbar{
+    overflow:hidden;
+    text-align: left;
     padding: 20px;
-    background:#5191fd;
+    background: aqua;
+}
+
+.navbar a{
+    padding: 10px 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* for data.html table */
+table{
+    width:70%;
+    border:1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+th, td{
+    border:none;
+    padding:5px;
+    text-align:center;
+}
+
+th{
+    background-color: aqua;
+    color:black
 }
