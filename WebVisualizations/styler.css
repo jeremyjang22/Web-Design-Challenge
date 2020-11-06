@@ -1,26 +1,42 @@
 h1{
     font-size: 50px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 40;
+    padding: 20px;
 }
 
 /* body */
 body{
     padding:15px;
+    background-color: grey;
+    z-index: 20;
+    position: relative;
     /* outline: auto; */
 }
-
+.latitude-nav{
+    z-index: 30;
+    position: relative;
+}
 /* Navigation bar */
+.navigation-bar{
+    overflow:visible;
+}
+
 .navbar{
-    overflow:hidden;
     text-align: left;
     padding: 20px;
     background: aqua;
 }
 
-.navbar a{
+/* .navbar a{
     padding: 10px 15px;
     text-align: center;
     padding: 10px;
-}
+} */
+
 
 /* for data.html table */
 table{
