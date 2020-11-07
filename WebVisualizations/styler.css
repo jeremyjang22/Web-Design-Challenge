@@ -11,9 +11,10 @@ h2{
 /* body */
 body{
     padding:15px;
-    background-color: grey;
+    background-color:lightskyblue;
     z-index: 20;
     position: relative;
+    border: 10px black;
     /* outline: auto; */
 }
 .latitude-nav{
@@ -28,7 +29,7 @@ body{
 .navbar{
     text-align: left;
     padding: 20px;
-    background: aqua;
+    background: violet;
 }
 
 /* .navbar a{
@@ -55,6 +56,7 @@ th, td{
 }
 
 th{
-    background-color: aqua;
+    background-color:lightgray;
     color:black
 }
+
